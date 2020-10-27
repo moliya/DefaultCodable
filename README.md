@@ -27,7 +27,7 @@ struct Model: Codable {
     var value: Double
   
     @Default.FirstCase
-    var language: Category
+    var category: Category
 }
 ```
 
