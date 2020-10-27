@@ -22,8 +22,8 @@ struct Model: Codable {
   
     @Default.Zero
     var count: Int
-  
-  	@Default.One
+
+    @Default.One
     var value: Double
   
     @Default.FirstCase
