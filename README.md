@@ -44,7 +44,7 @@ struct Model: Codable {
     @Default.FirstCase
     var category1: Category
   
-  	// 标记category2默认值为最后一个枚举
+    // 标记category2默认值为最后一个枚举
     @Default.LastCase
     var category2: Category
 }
